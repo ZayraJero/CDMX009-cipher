@@ -15,25 +15,25 @@ Es una página dirigida a una empresa de cuidado de ancianos, enfocada en el per
 
 ## 3. Prototipo y feedback
 
-<img src= "prototipo foto.jpg">
+<img src= "img/prototipofoto.png">
 <br>
 En el feedback me dijeron, que había botones que no eran necesarios de poner y explicar mejor ciertas funciones para que se entendiera mejor la página.
 
 ## 4. Wireframe
 
-<img src= "prot1.png">
-<br>
-<img src= "prot2.png">
-<br>
-<img src= "prot3.png">
+<img src= "img/prot1.png">
+
+<img src= "img/prot2.png">
+
+<img src= "img/prot3.png">
 
 ## 5. Resultado final
 
-<img src= "zay1.png">
-<br>
-<img src= "zay2.png">
-<br>
-<img src= "zay3.png">
+<img src= "img/zay1.png">
+
+<img src= "img/zay2.png">
+
+<img src= "img/zay3.png">
 
 
 
