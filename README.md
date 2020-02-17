@@ -29,11 +29,11 @@ En el feedback me dijeron, que había botones que no eran necesarios de poner y 
 
 ## 5. Resultado final
 
-<img src= "img/zay1.png">
+<img src= "img/zay-1.png">
 
-<img src= "img/zay2.png">
+<img src= "img/zay-2.png">
 
-<img src= "img/zay3.png">
+<img src= "img/zay-3.png">
 
 
 
