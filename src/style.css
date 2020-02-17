@@ -1,0 +1,200 @@
+/*--Estilos generales--*/
+body {
+    background: #8FD6C0;
+  }
+  
+  #wrap {
+    width: 960px;
+    margin: auto;
+    clear: both; 
+  }
+  
+  /*--Estilos de pantalla--*/
+  section {
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px;
+    margin:0 auto;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    background-color: #ffffff;  
+  }
+  
+  #first-page {
+     display: block;
+   }
+  #second-page {
+    display: none;
+  }
+  #third-page {
+    display: none;
+  }
+  
+  .tree {
+    width: 190px;
+    height: 190px;
+    margin: 0px;
+    float: center;
+    justify-content: center;
+  }
+  
+  
+  .logo-header h1 {
+    font-family: 'pacifico';
+    font-size: 57px;
+    text-align: center;
+    color: #190707;
+    font-weight: 400;
+    margin: 0px;
+  }
+  
+  .logo-header p {
+    text-align: center;
+      font-size: 18px;
+      font-family: Helvetica;
+      color: #2E2E2E;
+      margin: 0px 0px 15px 15px;
+   }
+  
+  .contenedor1{
+    display: flex;
+  flex-direction: column;
+    }
+  
+   .txtName {
+    flex-direction: column initial;
+    justify-content: right;
+    align-items: right;
+    
+       width: 250px;
+      font-family: 'Pacifico';
+      text-align: center;
+      color:#0A122A;
+    }
+  
+    .primerBoton{
+  
+      font-size: 13px;
+      font-family: Arial;
+      text-align: center;
+    }
+  
+  
+  .old {
+      width: 400px;
+      height: 400px;
+    }
+  
+  .hola h2 {
+    font-family: 'pacifico';
+    font-size: 50px;
+    text-align: left;
+    color: #190707;
+    font-weight: 400;
+  }
+  
+  .hola p {
+    text-align: center;
+    font-family: arial;
+    font-size: 28px;
+    color: #2E2E2E;
+  }
+  
+  .contenedor2 {
+    display: flex;
+    flex-direction: row;
+  } 
+  
+  .lastName{
+    width: 250px;
+    font-family: 'pacifico';
+    text-align: center;
+    color: #0A122A;
+  flex-direction: column initial;
+  }
+  
+  .offset-style {
+    justify-content: right;
+    width: 40px;
+  }
+
+  .content-offset{
+    margin-top: 10px;
+  }
+  
+  .label {
+    font-size: 13px;
+    font-family: Arial;
+    color: #666;
+  }
+  
+  .encode {
+    font-size: 13px;
+    font-family: Arial;
+  }
+  
+  .decode {
+    font-size: 13px;
+    font-family: Arial;
+  }
+  
+  .hola h3 {
+    font-family: Helvetica;
+    font-size: 14px;
+    text-align: right;
+    color: #190707;
+  }
+  
+  .box-msg {
+      font-size: 14px;
+      font-family: 'Pacifico';
+     text-align: center;
+     color: #0A122A;
+       width: 100%;
+    height: 250px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  
+    resize: none;
+  }
+  
+  .segundoBoton {
+    font-size: 13px;
+    font-family: Arial;
+    text-align: center;
+  }
+  
+  .gracias h4 {
+    font-family: 'pacifico';
+    font-size: 55px;
+    text-align: center;
+    color: #190707;
+    font-weight: 400;
+  }
+  
+  .rectangulo {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .doctor {
+    display: flex;
+    flex-direction: row;
+  
+    width: 345px;
+    height: 345px;
+  }
+  
+  .team {
+    display: flex;
+  flex-direction: row; 
+  }
+  
+  .back {
+    font-size: 13px;
+    font-family: Arial;
+    text-align: center; 
+    align-content: right;
+  }
