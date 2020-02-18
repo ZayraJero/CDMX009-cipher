@@ -35,5 +35,50 @@ En el feedback me dijeron, que había botones que no eran necesarios de poner y 
 
 <img src= "img/zay-3.png">
 
+## 5. Objetivos de aprendizaje
+
+El objetivo principal de aprendizaje es adquirir experiencia desarrollando
+aplicaciones web (WebApp) que interactúen con el usuario a través del navegador
+y la lógica, utilizando HTML5, CCS3 y JavaScript como herramientas.
+
+Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplicar** en tu proyecto.
+
+### UX
+
+- [:blush:] Diseñar la aplicación pensando y entendiendo al usuario.
+- [:blush:] Crear prototipos para obtener feedback e iterar.
+- [:blush:] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+
+### HTML y CSS
+
+- [:flushed:] Uso correcto de HTML semántico.
+- [:blush:] Uso de selectores de CSS.
+- [:flushed:] Construir tu aplicación respetando el diseño realizado (maquetación).
+
+### DOM
+
+- [:blush:] Uso de selectores del DOM.
+- [:flushed:] Manejo de eventos del DOM.
+- [:flushed:] Manipulación dinámica del DOM.
+
+### Javascript
+
+- [:blush:] Manipulación de strings.
+- [:blush:] Uso de condicionales (if-else | switch).
+- [:blush:] Uso de bucles (for | do-while).    
+- [:blush:] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [:blush:] Declaración correcta de variables (const & let).
+
+### Testing
+- [:flushed:] Testeo de tus funciones.
+
+### Git y GitHub
+- [:blush:] Comandos de git (add | commit | pull | status | push).
+- [:blush:] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+
+### Buenas prácticas de desarrollo
+- [:blush:] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [:blush:] Uso de linter para seguir buenas prácticas (ESLINT).
+
 
 

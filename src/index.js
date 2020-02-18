@@ -2,10 +2,9 @@ import cipher from './cipher.js';
 
 console.log(cipher);
 
-let word = document.getElementById("string");
-let offset = document.getElementById("offset");
 
 let submitButton = document.querySelector('#primerBoton')
+
 function myFunction () {
   document.getElementById("primerBoton").addEventListener('click,myFunction');
 
@@ -25,6 +24,10 @@ document.getElementById("second-page").style.display="none";
 }
 
 submitButton.addEventListener('click,myFunction2')
+
+
+let word = document.getElementById("string");
+let offset = document.getElementById("offset");
 
 function encode(){
 
