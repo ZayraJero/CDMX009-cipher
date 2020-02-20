@@ -1,6 +1,6 @@
 import cipher from './cipher.js';
 
-const primerBoton = document.getElementById("primerBoton");
+/*const primerBoton = document.getElementById("primerBoton");
 primerBoton.addEventListener("click", function(){
 
   document.getElementById("second-page").style.display="block";
@@ -38,7 +38,7 @@ submitButton.addEventListener('click, myFunction2')
 function enviar1 () 
 {
   document.querySelector('#second-page').style.display = 'block';
-}
+}*/
 
 let name = document.querySelector('#lastName')
 let number = document.querySelector('#offset')
