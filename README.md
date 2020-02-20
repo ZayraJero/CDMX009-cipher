@@ -43,6 +43,9 @@ y la lógica, utilizando HTML5, CCS3 y JavaScript como herramientas.
 
 Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplicar** en tu proyecto.
 
+ [:blush:] Muy bien
+ [:flushed:] A mejorar 
+
 ### UX
 
 - [:blush:] Diseñar la aplicación pensando y entendiendo al usuario.
@@ -51,7 +54,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 ### HTML y CSS
 
-- [:flushed:] Uso correcto de HTML semántico.
+- [:blush:] Uso correcto de HTML semántico.
 - [:blush:] Uso de selectores de CSS.
 - [:flushed:] Construir tu aplicación respetando el diseño realizado (maquetación).
 
