@@ -15,7 +15,7 @@
        <header class="logo-header">
          <div>
             <center>
-             <img class="tree" src="arboltorcido.jpg">
+             <img class="tree" src="img/arboltorcido.jpg">
             </center>
 
            <!--Titulo-->
@@ -24,75 +24,97 @@
          </div>
        </header>
 
-       <!--Ingresa tu nombre-->
-       <div id="contenedor1">
+      <!--Ingresa tu nombre-->
+      <div id="contenedor1">
 
-      <div><img class="old" src="parejancianos1.png"></div>
-       <center>
-         <div class= "txtName">
-         <input type="text" id="textName" placeholder="Ingresa tu nombre">
-
-
-        <!--Boton de enviar-->
-        
-         <button id="primerBoton">Enviar</button>
-        
-         </div>
-       
-       </div>
-     </section>
+          <div><img class="old" src="img/parejancianos1.png"></div>
+             
+               <div class= "txtName">
+                 <center>
+               <input type="text" id="textName" placeholder="Ingresa tu nombre">
+               
+      
+              <!--Boton de enviar-->
+              
+               <button type="button" id="primerBoton">Enviar</button>
+              </center>
+               </div>
+             
+             </div>
+      
+               
+           </section>
 
      <!--Parrafos y titulos-->
-     <section class="block2" id="second-page">
+     <section class="block2 esconder" id="second-page">
        <div class="hola">
          <h2>¡HOLA!</h2>
          <p><i>Tu opinión nos importa y nos ayuda a mejorar</i></p>
        </div>
 
        <!--Imagen nombre-->
-       <div class="contenedor2">
-         
-           <div class="rectangulo"><img class="doctor" src="doctorazul1.png">
-        </div>
+       
+              <div class="contenedor2">
+           
+        <div class="rectangulo"><img class="doctor" src="img/doctorazul1.png"></div>
+      
         <!--Boton de desglose-->
-
-       <!-- <section id=data> -->
-
+        <table>
+          
           <div class="content-offset">
+            <th>
+                <br><br>
             <input type="text" id="lastName" placeholder="Ingresa tu apellido">
-            <br>
-            <br>
+        
                 <label class="label">Número de desplazamiento</label>
                 <input type="number" id="offset" class="offset-style">
+                <br><br>
+              </th>
           </div>
-        <br> 
+    
         <!--Boton de cifrar/ descrifrar-->
         <div>
+          
+          <tr>
+          <th>
           <button id="encode">Cifra tu nombre</button>
+        
           <button id="decode">Descifra tu nombre</button>
+        </th>
+      </tr>
+  
         </div>
 
+        
     <!--Comentarios/ boton-->
     
    <div id="content-msg">
+      
+      <tr>
+    <th>
+        <br>
      <h3>Escribe lo que piensas:</h3>
-     <textarea id="box-msg" placeholder="Buzón de sugerencias y comentarios"></textarea>
-   
-   <br>
-        <button id="segundoBoton">Enviar</button>
-       </div>
-       </div>
     
-        </section>
+     <textarea id="box-msg" placeholder="Buzón de sugerencias y comentarios"></textarea>
+     
+        <button id="segundoBoton">Enviar</button>
+      </th>
+     </tr> 
+
+    </table>
+
+     </div>
+        
+      </section>
 
         <!--Parrafos y titulos-->
-        <section class="block3" id="third-page">
+        <section class="block3 esconder" id="third-page">
 
           <div class="gracias">
             <h4>¡Gracias por tu participación!</h4>
 
           <center>
-            <img class="team" src="equipodoctores.jpg">
+            <img class="team" src="img/equipodoctores.jpg">
           </center>
 
         </div>          
@@ -100,6 +122,7 @@
           
         </section>
         </div>    
+      
           
     
     <script src="index.js" type="module"></script>

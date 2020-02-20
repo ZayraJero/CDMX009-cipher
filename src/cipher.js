@@ -1,47 +1,40 @@
-const cipher = { encode, decode};
+const cipher = {
  
-
 // se declara la funcion para codificar
-function encode (offset, string){
-let cipherTxt=""; //variable para dar el mensaje codificado
+ encode : (offset, string) => {
+let cipherTxt= ''; //variable para dar el mensaje codificado
 
   for (let i= 0; i < string.length; i++){ 
-    let i= string.charCodeAt(i);
-    let character = string[i];
-
-    if (string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90){
-      let word = (string.charCodeAt(i) - 65 + parseInt(offset)) % 26 + 65;
-      cipherTxt += string.fromCharCode(word);
+    let letra= string.charCodeAt(i);
+  
+    if (letra >= 65 && letra <= 90){
+     
+      cipherTxt += String.fromCharCode((letra - 65 + parseInt(offset)) % 26 + 65);
       
-    } else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <=122) {
-      word = (string.charCodeAt(i) -97 + parseInt(offset)) % 26 + 97;
-    cipherTxt += string.fromCharCode(word);
-    }
-} else {
-  cipherTxt += character;
+    }else (letra >= 97 && letra <=122)
+    {
+      cipherTxt += String.fromCharCode((letra - 97 + parseInt(offset)) % 26 + 97);
 }
-
+  }
 return cipherTxt;
-};
+},
 
-function decode: (string, offset) {
-  let dechiperTxt ="";
+ decode: (string, offset) => {
+  let dechiperTxt = '';
 
   for(let i = 0; i < string.lenght; i++) {
-    let character1 = string[i];
+    let letra= string.charCodeAt(i);
 
-    if (string.charCodeAt(i) >= 65 && string. charCodeAt(i) <= 90) {
-      let word = (string.charCodeAt(i) + 65 - parseInt(offset)) % 26 + 65;dechiperTxt += string.fromCharCode(word);
+    if (letra >= 65 && letra <= 90) {
 
-    } else if (string.charCodeAt(i) >= 97 && string.charCodeAt(i) <= 122){
-    let word = (string.fromCharCode(i) -97 - parseInt(offset) + 52) % 26) + 97;
-    dechiperTxt += string.fromCharCode(word);
+      dechiperTxt += String.fromCharCode((letra + 65 - parseInt(offset)) % 26 + 65);
+       
+    }else (letra >= 97 && letra <=122)
+    {
+      dechiperTxt += String.fromCharCode((letra - 97 - parseInt(offset)) % 26 + 97);
     }
-  }else {
-    dechiperTxt += character1;
   }
 return dechiperTxt;
+}
 
-};
-
-  export default cipher;
+export default cipher;
